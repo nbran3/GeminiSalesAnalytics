@@ -1,0 +1,1 @@
+This project is going to be an end-to-end data pipeline of synthetic sales data using Google Gemini to analyze the data.
