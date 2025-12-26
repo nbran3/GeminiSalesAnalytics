@@ -1,0 +1,5 @@
+pandas
+faker
+pandas_gbq
+dbt-core
+airflow-dbt-python

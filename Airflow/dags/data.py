@@ -1,9 +1,9 @@
 from faker import Faker
-fake = Faker()
 import pandas as pd
 import random
 import string
 
+fake = Faker()
 
 item_categories = {
     'Food': [
@@ -264,7 +264,9 @@ def generate_orders(n_rows):
         })
     return rows
 
-n_rows = 100
-data = generate_orders(n_rows)
-df = pd.DataFrame(data)
-print(df)
+def get_DataFrame():
+    n_rows=1000
+    data = generate_orders(n_rows)
+    df = pd.DataFrame(data)
+
+    return df
