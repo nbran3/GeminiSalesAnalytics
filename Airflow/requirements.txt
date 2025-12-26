@@ -1,5 +1,7 @@
+apache-airflow-providers-google
 pandas
 faker
 pandas_gbq
 dbt-core
+dbt-bigquery
 airflow-dbt-python
