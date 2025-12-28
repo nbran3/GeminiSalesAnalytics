@@ -5,3 +5,5 @@ pandas_gbq
 dbt-core
 dbt-bigquery
 airflow-dbt-python
+google-genai
+google-cloud-bigquery

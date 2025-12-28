@@ -1,8 +1,8 @@
 from data import get_DataFrame
 import pandas_gbq as gbq
 
-destination_table = ''
-project_id=''
+destination_table = 'salesmart.bronze'
+project_id='salesanalytics-482412'
 
 def ingest_data():
     dataframe = get_DataFrame()
